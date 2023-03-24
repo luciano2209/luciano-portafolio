@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import { dataExperience } from "../data/experienceData";
 
 const WorkExperience = () => {
   return (
@@ -15,14 +16,13 @@ const WorkExperience = () => {
         Experiencia
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory overflow-y-hidden scrollbar 
-      scrollbar-track-slate-400/20 scrollbar-thumb-[#F7AB0A]/80">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+      <div
+        className="w-full flex space-x-5 overflow-scroll p-10 snap-x snap-mandatory overflow-y-hidden scrollbar 
+      scrollbar-track-slate-400/20 scrollbar-thumb-[#F7AB0A]/80"
+      >
+        {dataExperience.map((experience) => (
+          <ExperienceCard experience={experience} />
+        ))}
       </div>
     </motion.div>
   );

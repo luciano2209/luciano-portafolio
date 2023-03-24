@@ -24,15 +24,15 @@ const About = () => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src={luciano}
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] mt-16"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px] xl:mt-0 mt-32"
       />
-      <div className=" space-y-10 рх-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
+      <div className="space-y-10 рх-0 md:px-10 mt-24 xl:mt-0">
+        {/* <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50"> litlle</span>{" "}
           background
-        </h4>
-        <p className="text-sm">
+        </h4> */}
+        <p className="text-sm ">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of

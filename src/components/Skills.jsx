@@ -17,7 +17,7 @@ const Skills = () => {
         Habilidades
       </h3>
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-2 xl:gap-5 xl:pt-32">
         {dataSkills.map((skill) => (
           <Skill skill={skill} />
         ))}

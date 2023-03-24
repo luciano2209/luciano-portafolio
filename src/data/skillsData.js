@@ -1,5 +1,3 @@
-
-
 import angular from "../assets/SkillsIcons/angular-icon.png";
 import aws from "../assets/SkillsIcons/aws-icon.png";
 import cSharp from "../assets/SkillsIcons/c-sharp-programming-language-icon.png";

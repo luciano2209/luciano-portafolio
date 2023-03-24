@@ -6,9 +6,9 @@ import luciano from "./../assets/luciano-hero.png";
 const Hero = () => {
   const [text] = useTypewriter({
     words: [
-      "Hola, soy Luciano Hernandez",
-      "Ingeniero en Informatica de vocacion",
-      "Me gusta la Musica !!!",
+      "Hola, soy Luciano Hernández",
+      "<Programador/>",
+      "Me gusta la Musica!!!",
     ],
     loop: true,
     delaySpeed: 2000,

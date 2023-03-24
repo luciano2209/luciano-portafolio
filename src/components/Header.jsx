@@ -23,17 +23,12 @@ const Header = () => {
       >
         {/* Social Icons */}
         <SocialIcon
-          url="https://www.youtube.com/sonnysangha"
+          url="https://github.com/luciano2209"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/sonnysangha"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://www.youtube.com/sonnysangha"
+          url="https://www.linkedin.com/in/luciano-hernandez-cabrera-045784176"
           fgColor="gray"
           bgColor="transparent"
         />
